@@ -1,9 +1,0 @@
-services:
-  - type: worker
-    name: virtual-numbers-bot
-    runtime: python
-    buildCommand: echo "No build step needed"
-    startCommand: python bot.py
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.11.0
